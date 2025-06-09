@@ -15,3 +15,10 @@ CREATE TABLE employees (
 -- Show tables
 SHOW TABLES;
 DESCRIBE employees;
+
+-- Insert into
+INSERT INTO employees (name, department, salary)
+VALUES ('Alice', 'Engineering', 95000.00);
+
+-- Select all
+SELECT * FROM employees;
