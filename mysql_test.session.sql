@@ -22,3 +22,12 @@ VALUES ('Alice', 'Engineering', 95000.00);
 
 -- Select all
 SELECT * FROM employees;
+
+-- 
+INSERT INTO employees (name, department, salary)
+VALUES
+('Bob', 'Sales', 65000.00),
+('Charlie', 'HR', 55000.00);
+
+
+SELECT * FROM employees;
