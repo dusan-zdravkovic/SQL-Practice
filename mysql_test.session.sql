@@ -31,3 +31,17 @@ VALUES
 
 
 SELECT * FROM employees;
+
+-- new block
+-- Filter: only Engineering
+SELECT * FROM employees
+WHERE department = 'Engineering';
+
+-- Sort by salary, highest first
+SELECT * FROM employees
+ORDER BY salary DESC;
+
+-- Top 2 earners
+SELECT * FROM employees
+ORDER BY salary DESC
+LIMIT 2;
